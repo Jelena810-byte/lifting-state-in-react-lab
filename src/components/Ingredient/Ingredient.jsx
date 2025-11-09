@@ -1,4 +1,6 @@
-// src/components/Ingredient/Ingredient.jsx
+
+import React from "react";
+
 const Ingredient = ({ ingredient, onAdd, onRemove }) => {
   return (
     <li style={{ backgroundColor: ingredient.color }}>

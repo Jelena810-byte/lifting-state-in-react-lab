@@ -1,3 +1,8 @@
+* {
+box-sizing: border-box;
+}
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.8;
@@ -7,10 +12,11 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ font-synthesis: none;
+ text-rendering: optimizeLegibility;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+
 }
 
 a {
@@ -33,12 +39,15 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  border-radius: 10px;
+  border: 5px solid black;
+
 }
 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  padding: 0.6em 1em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
